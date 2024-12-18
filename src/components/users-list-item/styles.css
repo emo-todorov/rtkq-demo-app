@@ -1,0 +1,11 @@
+.panel-header {
+    display: flex;
+}
+
+.expandable-button {
+    margin-left: auto;
+}
+
+.users-list__item {
+    margin-top: 2rem;
+}

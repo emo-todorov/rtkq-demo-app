@@ -1,6 +1,12 @@
 {
-    "users": [{
-        "id": 2,
-        "title": "dasda"
-    }]
+  "users": [
+    {
+      "id": "c6a2",
+      "username": "Jermaine.Friesen85"
+    },
+    {
+      "id": "c46e",
+      "username": "Jerrell.Reynolds66"
+    }
+  ]
 }

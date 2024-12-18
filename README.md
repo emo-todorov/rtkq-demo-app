@@ -1,0 +1,1 @@
+App made with React and RTKQ for learning purposes

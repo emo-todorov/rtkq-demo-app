@@ -20,7 +20,7 @@ const AlbumsListItem = ({ album }) => {
   return (
     <div>
       <ExpandablePanel header={header}>
-        <PicturesList />
+        <PicturesList album={album} />
       </ExpandablePanel>
     </div>
   )

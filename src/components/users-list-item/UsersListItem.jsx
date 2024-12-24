@@ -2,8 +2,9 @@ import React from 'react'
 import "./styles.css";
 import { useDeleteUserMutation } from '../../store';
 import ExpandablePanel from '../expandable-panel/ExpandablePanel';
+import ALbumsList from '../albums-list/ALbumsList';
 
-const UsersListItem = ({ user }) => {
+const UsersListItem = ({ user = {} }) => {
     const [deleteUser, results] = useDeleteUserMutation();
 
     const { username } = user;
@@ -22,7 +23,7 @@ const UsersListItem = ({ user }) => {
     return (
         <div className='users-list__item'>
             <ExpandablePanel header={header}>
-                CONTENT !!!
+                <ALbumsList user={user} />
             </ExpandablePanel>
         </div>
     )

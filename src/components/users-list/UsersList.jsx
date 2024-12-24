@@ -6,13 +6,13 @@ import './styles.css';
 const UsersList = () => {
     const { data = [] } = useFetchUsersQuery();
 
-    const renderedData = data.map(user => {
+    const renderedUsers = data.map(user => {
         return <UserListItem key={user.id} user={user} />;
     });
 
     return (
         <div className='users-list'>
-            {renderedData}
+            {renderedUsers}
         </div>
     )
 }
